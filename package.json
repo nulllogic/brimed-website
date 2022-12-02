@@ -1,0 +1,18 @@
+{
+  "name": "bridents",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "nuxt": "^2.4.3",
+    "vue-canvasvideo": "^1.0.0",
+    "vue-carousel": "^0.17.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "nuxt build"
+  }
+}

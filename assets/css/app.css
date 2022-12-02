@@ -1,0 +1,520 @@
+body p,
+body li {
+	font-size: 14px;
+	color: #7c6853;
+}
+
+body span.strong {
+	color: #c3512f;
+	font-weight: bold;
+}
+
+body blockquote {
+	margin: 20px 0;
+	padding: 0 0 0 20px;
+	border-left: 7px solid #c3512f;
+}
+
+body blockquote p {
+	font-size: 16px;
+	color: #2a6079;
+}
+
+body blockquote cite {
+	font-size: 16px;
+	color: #7c6853;
+	font-style: italic;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 1px solid #ebe8e2;
+	background-color: #ffffff;
+	z-index: 100;
+	box-shadow: 1px 4px 16px -8px #444242;
+}
+
+header .nav a {
+	padding: 15px;
+	font-size: 15px;
+	color: #0f4e69;
+	font-weight: 600;
+}
+
+header .nav li {
+	border-bottom: 2px solid transparent;
+	-webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+	transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+header .nav .nav-logo a {
+	padding: 0;
+}
+
+header .nav .nav-logo img {
+	max-height: 88px;
+}
+
+header .nav li:not(.nav-logo, .hamburger):hover,
+header .nav li:not(.nav-logo, .hamburger):active {
+	background-color: inherit;
+}
+
+header .nav li:not(.nav-logo, .hamburger):hover a,
+header .nav li:not(.nav-logo, .hamburger):active a {
+	color: #7c6853;
+}
+
+header .nav .hamburger {
+	top: 25px;
+}
+
+.content {
+	margin-top: 110px;
+	z-index: 10;
+}
+
+.content .main-title .header {
+	font-size: 34px;
+	color: #666666;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 400;
+}
+
+.content .main-title .subheader {
+	font-size: 25px;
+	color: #7c6853;
+	text-align: center;
+	font-weight: 400;
+}
+
+.content h2.header {
+	margin: 20px 0;
+	font-size: 28px;
+	color: #666666;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content .slider .slide {
+	display: none;
+}
+
+.content .slider .slide.slide-1 {
+	display: block;
+}
+
+.content .about-description .title {
+	margin: 10px 0;
+	font-size: 18px;
+	color: #c3512f;
+}
+
+.content .service-block {
+	margin-bottom: 50px;
+}
+
+.content .service-block .title {
+	font-size: 24px;
+	color: #666666;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.content .service-block a {
+	padding: 100px 0;
+	position: relative;
+}
+
+.content .service-block a img {
+	transition: all 0.35s ease-in-out;
+}
+
+.content .service-block a:hover {
+	cursor: pointer;
+}
+
+.content .service-block a:hover img {
+	opacity: 0.3;
+}
+
+.content .service-block a:hover::before {
+	opacity: 1;
+}
+
+.content .service-block a:hover i {
+	opacity: 0.8;
+}
+
+.content .service-block a::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 27%;
+	left: 41%;
+	width: 100px;
+	height: 100px;
+	background-color: #a1300d;
+	border-radius: 50%;
+	opacity: 0;
+	transition: all 0.35s ease-in-out;
+}
+
+.content .service-block a i {
+	position: absolute;
+	top: 41%;
+	left: 48%;
+	font-size: 38px;
+	color: #ffffff;
+	opacity: 0;
+	transition: all 0.35s ease-in-out;
+}
+
+.content .service-title h1.header {
+	padding: 30px 0;
+	font-size: 24px;
+	color: #666666;
+
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid rgba(124, 104, 83, 0.15);
+}
+
+.lechenie-zubov-page .content .service-title h1.header {
+	margin-bottom: 40px;
+}
+
+.more-services .content .small-title {
+	margin: 40px 0 5px;
+	font-size: 26px;
+	color: #666666;
+	font-weight: 300;
+	text-transform: uppercase;
+
+}
+
+.more-services .content .subheader {
+	margin-top: 0;
+}
+
+.more-services .content li {
+	margin: 0 0 5px 20px;
+}
+
+.more-services .content ul {
+	margin-bottom: 10px;
+}
+
+.more-services .content img.to-right {
+	margin: 0 0 30px 40px;
+	max-width: 40%;
+	float: right;
+}
+
+.more-services .content img.to-left {
+	margin: 0 40px 30px 0;
+	max-width: 40%;
+	float: left;
+}
+
+.contact-page .contacts {
+	padding: 0 20px;
+}
+
+.contact-page .map iframe {
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+}
+
+.contact-page .contacts .block .title {
+	margin-top: 30px;
+	font-size: 18px;
+	color: #c3512f;
+}
+
+.contact-page .contacts .block:first-of-type .title {
+	margin-top: 0;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 30px 0;
+	font-size: 12px;
+	color: #988f81;
+	text-align: center;
+	background-color: #2b2822;
+}
+
+footer a {
+	color: #f5f5f5;
+}
+
+footer a:hover {
+	padding: 10px 0;
+	color: #f5f5f5;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media (min-width: 576px) {
+	.content .service-title h1.header {
+		font-size: 28px;
+	}
+}
+
+@media (min-width: 768px) {
+	.content .service-title h1.header {
+		font-size: 34px;
+	}
+
+	.content .service-block a::before {
+		left: 30%;
+	}
+
+	.content .service-block a i {
+		left: 41%;
+	}
+}
+
+@media (min-width: 992px) {
+	header {
+		opacity: 0.9;
+	}
+
+	header .nav a {
+		padding: 36px 13px;
+		font-size: 13px;
+		color: #2a6079;
+	}
+
+	header .nav li:not(.nav-logo, .hamburger):hover,
+	header .nav li:not(.nav-logo, .hamburger):active {
+		border-bottom-color: #a1300d;
+	}
+
+	.content h2.header {
+		margin: 70px 0;
+	}
+
+	.content .main-title {
+		margin-bottom: 40px;
+	}
+
+	.content .about-description {
+		margin-left: 40px;
+	}
+
+	.content .service-block .title {
+		font-size: 26px;
+	}
+}
+
+.iconbox_top .iconbox_content {
+	padding: 45px 20px 20px 20px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	border-color: #ebe8e2;
+	background: #f8f6f2;
+}
+
+.iconbox_top .iconbox_icon {
+	float: none;
+	position: absolute;
+	left: 50%;
+	top: -26px;
+	margin: 0 0 0 -26px;
+	padding: 15px;
+	border-radius: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	font-size: 20px;
+	line-height: 16px;
+
+	background-color: #c3512f;
+	color: #ffffff;
+	border-color: #a1300d;
+}
+
+.template-page .entry-content-wrapper h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:#666;
+}
+
+.VueCarousel-navigation-prev {
+	left:40px !important;
+	opacity: 0.85 !important;
+	font-size: 1.5rem;
+	top:45% !important;
+}
+
+.VueCarousel-navigation-next {
+	right:40px !important;
+	opacity: 0.85 !important;
+	font-size: 1.5rem;
+	top:45% !important;
+}
+
+.VueCarousel-dot-container {
+	margin-top:-25px !important;
+}
+
+
+.parallax {
+	background: url(../img/vladikavkaz_klinka_daniel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:10em 0;
+	position: relative;
+
+	margin-top: 40px;
+}
+
+.parallax .overlay {
+	opacity: 0.4;
+	background-color: #0c9fc2;
+	z-index:1;
+
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+}
+
+.parallax .post-entry {
+	position: relative;
+	z-index:2;
+}
+
+.parallax .avia_textblock h2 {
+	color:#fff;
+}
+
+#av_section_2 .md-one-third h2 {
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:#666;
+
+	font-size: 1.5rem;
+
+}
+
+#av_section_1 {
+	position:relative;
+}
+
+#av_section_1 .video {
+	z-index:2;
+
+	position: absolute !important;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#av_section_1 .overlay {
+	opacity: 0.3;
+	background-color: #0c9fc2;
+
+	z-index:3;
+
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#av_section_1 .inner-content {
+	position:relative;
+	top:40px;
+	left:0;
+	width:100%;
+	z-index:4;
+
+	padding: 10em 0;
+}
+
+#av_section_1 .inner-content h1 {
+	color:#fff;
+	text-align: center;
+	font-weight: 300;
+	font-size:2.75rem;
+}
+
+#av_section_1 .inner-content h1 strong {
+	font-size:3.7rem;
+}
+
+#av_section_1 .inner-content p {
+	color:#fff;
+	text-align: center;
+	font-size:1.25rem;
+	font-weight: 300;
+	padding-bottom: 50px;
+}
+
+#av_section_1 iframe {
+	/* optional */
+	width: 100%;
+	height: 100%;
+}
+
+#av_section_2 {
+	margin-top:40px;
+}
+
+#av_section_1 .video-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+
+	#av_section_1 {
+
+		min-height: 200px;
+	}
+
+
+	#av_section_1 .inner-content {
+		top:20px;
+		padding: 2em 0;
+	}
+
+	#av_section_1 .inner-content h1 {
+		font-size:2rem;
+	}
+
+	#av_section_1 .inner-content h1 strong {
+		font-size:2.5rem;
+	}
+
+	#av_section_1 .inner-content p {
+
+		font-size:1rem;
+	}
+
+
+}
