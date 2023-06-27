@@ -28,7 +28,7 @@
               <div class="block">
                 <h3 class="title">Контактный телефон:</h3>
                 <span>
-                  <a href="tel:+79188242799">+7(918)824-27-99</a>
+                  <a href="tel:+79188204318">+7(918)820-43-18</a>
                 </span>
               </div>
               <div class="block">
